@@ -9,6 +9,7 @@ import net.minecraft.item.Item;
 
 public class MiscModItems extends Item {
     public MiscModItems(){
+        //NOTE: MiscMod Creative Tab Not yet Implimented
         this.setCreativeTab(getCreativeTab().tabMiscMod);
     }
 
