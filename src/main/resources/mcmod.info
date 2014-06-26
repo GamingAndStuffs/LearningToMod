@@ -1,0 +1,19 @@
+{
+  "modListVersion": 1.0,
+  "modList": [{
+    "modid": "MiscMod",
+    "name": "Misc Mod",
+    "description": "A mod that adds in a bunch of random items!",
+    "version": "1.0",
+    "mcversion": "1.7.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [ "Harry9137", "CloveC" ],
+    "credits": "Authored by Harry9137, with textures from CloveC",
+    "logoFile": "",
+    "screenshots": [ "shot1.png", "shot2.png" ],
+    "parent": "",
+    "requiredMods": ["Forge"],
+    "dependencies": []
+  }]
+}
