@@ -1,7 +1,7 @@
-package com.harry9137.MiscMod.init;
+package com.harry9137.miscmod.init;
 
-import com.harry9137.MiscMod.item.ingotDestiny;
-//import com.harry9137.MiscMod.item.tools.pickaxeDestiny;
+import com.harry9137.miscmod.item.ingotDestiny;
+//import com.harry9137.miscmod.item.tools.pickaxeDestiny;
 
 public class ItemInit {
     public static void itemInit(){

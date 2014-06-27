@@ -1,12 +1,11 @@
-package com.harry9137.MiscMod.blocks;
+package com.harry9137.miscmod.blocks;
 
 
-import com.harry9137.MiscMod.creativeTab.MiscModTab;
-import com.harry9137.MiscMod.item.ingotDestiny;
+import com.harry9137.miscmod.creativeTab.MiscModTab;
+import com.harry9137.miscmod.item.ingotDestiny;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
-import com.harry9137.MiscMod.blocks.MiscModBlockStem;
 
 public class blockDestinyBlock{
 public static Block blockDestiny;

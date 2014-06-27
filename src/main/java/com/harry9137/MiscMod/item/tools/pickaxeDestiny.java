@@ -1,15 +1,4 @@
-package com.harry9137.MiscMod.item.tools;
-
-import com.harry9137.MiscMod.Materials.Destiny;
-import com.harry9137.MiscMod.creativeTab.MiscModTab;
-import com.harry9137.MiscMod.item.MiscModItems;
-import com.harry9137.MiscMod.resources.Resources;
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.material.Material;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemPickaxe;
-import com.harry9137.MiscMod.creativeTab.MiscModTab;
-import net.minecraftforge.common.util.EnumHelper;
+package com.harry9137.miscmod.item.tools;
 
 
 //*public class pickaxeDestiny extends ItemPickaxe{

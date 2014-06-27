@@ -1,9 +1,9 @@
-package com.harry9137.MiscMod;
+package com.harry9137.miscmod;
 
-import com.harry9137.MiscMod.init.BlockInit;
-import com.harry9137.MiscMod.init.ItemInit;
-import com.harry9137.MiscMod.init.RecipiesInit;
-import com.harry9137.MiscMod.resources.Resources;
+import com.harry9137.miscmod.init.BlockInit;
+import com.harry9137.miscmod.init.ItemInit;
+import com.harry9137.miscmod.init.RecipiesInit;
+import com.harry9137.miscmod.resources.Resources;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.*;
 import net.minecraft.item.Item;

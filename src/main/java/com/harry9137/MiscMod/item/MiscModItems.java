@@ -1,6 +1,6 @@
-package com.harry9137.MiscMod.item;
+package com.harry9137.miscmod.item;
 
-import com.harry9137.MiscMod.resources.Resources;
+import com.harry9137.miscmod.resources.Resources;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;

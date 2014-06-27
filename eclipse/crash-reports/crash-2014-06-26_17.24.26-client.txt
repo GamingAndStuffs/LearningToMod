@@ -4,7 +4,7 @@
 Time: 6/26/14 5:24 PM
 Description: Unexpected error
 
-java.lang.ClassCastException: com.harry9137.MiscMod.blocks.MiscModBlockStem cannot be cast to net.minecraft.block.BlockStem
+java.lang.ClassCastException: com.harry9137.miscmod.blocks.MiscModBlockStem cannot be cast to net.minecraft.block.BlockStem
 	at net.minecraft.client.renderer.RenderBlocks.renderBlockStem(RenderBlocks.java:3853)
 	at net.minecraft.client.renderer.RenderBlocks.renderBlockByRenderType(RenderBlocks.java:403)
 	at net.minecraft.client.renderer.WorldRenderer.updateRenderer(WorldRenderer.java:207)

@@ -1,6 +1,6 @@
-package com.harry9137.MiscMod.init;
+package com.harry9137.miscmod.init;
 
-import com.harry9137.MiscMod.blocks.blockDestinyBlock;
+import com.harry9137.miscmod.blocks.blockDestinyBlock;
 
 public class RecipiesInit {
     public static void initRecipies(){

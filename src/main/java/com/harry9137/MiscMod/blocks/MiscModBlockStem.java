@@ -1,4 +1,4 @@
-package com.harry9137.MiscMod.blocks;
+package com.harry9137.miscmod.blocks;
 
 
 import cpw.mods.fml.relauncher.Side;
@@ -9,7 +9,6 @@ import java.util.Random;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
-import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
