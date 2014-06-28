@@ -1,4 +1,0 @@
-[09:16:21] [main/INFO]: Setting user: ForgeDevName
-[09:16:23] [Client thread/INFO]: LWJGL Version: 2.9.0
-[09:16:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Misc mod, Test
-[09:16:36] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
