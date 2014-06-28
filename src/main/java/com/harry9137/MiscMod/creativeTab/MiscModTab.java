@@ -1,4 +1,4 @@
-package com.harry9137.miscmod.creativeTab;
+package com.harry9137.miscmod.creativetab;
 
 import com.harry9137.miscmod.item.ingotDestiny;
 import cpw.mods.fml.relauncher.Side;

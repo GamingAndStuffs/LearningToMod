@@ -1,6 +1,6 @@
 package com.harry9137.miscmod.item;
 
-import com.harry9137.miscmod.creativeTab.MiscModTab;
+import com.harry9137.miscmod.creativetab.MiscModTab;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.*;
 import net.minecraft.init.Items;

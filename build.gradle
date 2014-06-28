@@ -22,7 +22,7 @@ group= "com.harry9137.miscmod" // http://maven.apache.org/guides/mini/guide-nami
 archivesBaseName = "miscmod"
 
 minecraft {
-    version = "1.7.2-10.12.1.1110"
+    version = "1.7.10-10.13.0.1152"
     assetDir = "eclipse/assets"
 }
 

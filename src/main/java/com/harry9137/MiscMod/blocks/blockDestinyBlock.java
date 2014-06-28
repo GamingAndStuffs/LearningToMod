@@ -1,7 +1,7 @@
 package com.harry9137.miscmod.blocks;
 
 
-import com.harry9137.miscmod.creativeTab.MiscModTab;
+import com.harry9137.miscmod.creativetab.MiscModTab;
 import com.harry9137.miscmod.item.ingotDestiny;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
