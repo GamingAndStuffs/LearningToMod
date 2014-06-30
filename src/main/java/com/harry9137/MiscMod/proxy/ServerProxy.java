@@ -1,4 +1,4 @@
 package com.harry9137.miscmod.proxy;
 
-public class ServerProxy {
+public class ServerProxy extends CommonProxy {
 }

@@ -8,6 +8,7 @@ import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBush;
+import net.minecraft.block.BlockStem;
 import net.minecraft.block.IGrowable;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
@@ -28,7 +29,7 @@ public class MiscModBlockStem extends BlockBush implements IGrowable
     private IIcon field_149876_b;
     private static final String __OBFID = "CL_00000316";
 
-    protected MiscModBlockStem(Block p_i45430_1_)
+    public MiscModBlockStem(Block p_i45430_1_)
     {
         this.field_149877_a = p_i45430_1_;
         this.setTickRandomly(true);
@@ -41,6 +42,7 @@ public class MiscModBlockStem extends BlockBush implements IGrowable
     /**
      * is the block grass, dirt or farmland
      */
+    @Override
     protected boolean canPlaceBlockOn(Block p_149854_1_)
     {
         return p_149854_1_ == Blocks.farmland;
@@ -49,6 +51,7 @@ public class MiscModBlockStem extends BlockBush implements IGrowable
     /**
      * Ticks the block if it's been scheduled
      */
+    @Override
     public void updateTick(World p_149674_1_, int p_149674_2_, int p_149674_3_, int p_149674_4_, Random p_149674_5_)
     {
         super.updateTick(p_149674_1_, p_149674_2_, p_149674_3_, p_149674_4_, p_149674_5_);
@@ -122,7 +125,6 @@ public class MiscModBlockStem extends BlockBush implements IGrowable
             }
         }
     }
-
     public void func_149874_m(World p_149874_1_, int p_149874_2_, int p_149874_3_, int p_149874_4_)
     {
         int l = p_149874_1_.getBlockMetadata(p_149874_2_, p_149874_3_, p_149874_4_) + MathHelper.getRandomIntegerInRange(p_149874_1_.rand, 2, 5);

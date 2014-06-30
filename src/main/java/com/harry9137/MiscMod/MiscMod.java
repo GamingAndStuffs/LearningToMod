@@ -1,12 +1,14 @@
 package com.harry9137.miscmod;
 
-import com.harry9137.miscmod.init.BlockInit;
+import com.harry9137.miscmod.creativetab.MiscModTab;
 import com.harry9137.miscmod.init.ItemInit;
 import com.harry9137.miscmod.init.RecipiesInit;
-import com.harry9137.miscmod.resources.Resources;
+import com.harry9137.miscmod.proxy.IProxy;
+import com.harry9137.miscmod.reference.Resources;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.*;
-import net.minecraft.item.Item;
+import com.harry9137.miscmod.reference.debugmessages;
 
 @Mod(
         modid= Resources.modid,
@@ -15,23 +17,28 @@ import net.minecraft.item.Item;
 )
 public class MiscMod
 {
-    @Mod.Instance("MiscMod")
+
+    @Mod.Instance(Resources.modid)
     public static MiscMod instance;
 
-    public static Item itemDestinyIngot;
+    @SidedProxy(clientSide = Resources.clientProxyPackage, serverSide = Resources.serverProxyPackage)
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
 
         ItemInit.itemInit();
 
-        BlockInit.initBlock();
+
+       // BlockInit.initBlock();
+
 
     }
 
     public void init(FMLInitializationEvent event)
     {
         RecipiesInit.initRecipies();
+        debugmessages.RecipieInitDebug();
 
     }
 

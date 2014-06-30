@@ -1,4 +1,8 @@
 package com.harry9137.miscmod.proxy;
 
-public class ClientProxy {
+import com.harry9137.miscmod.proxy.IProxy;
+
+public class ClientProxy extends CommonProxy {
+
+
 }

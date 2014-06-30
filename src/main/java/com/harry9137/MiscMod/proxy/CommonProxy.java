@@ -1,4 +1,6 @@
 package com.harry9137.miscmod.proxy;
 
-public abstract class CommonProxy {
+import com.harry9137.miscmod.reference.debugmessages;
+
+public abstract class CommonProxy implements IProxy {
 }
