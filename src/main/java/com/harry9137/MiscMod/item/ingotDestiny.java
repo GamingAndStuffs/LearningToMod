@@ -10,10 +10,7 @@ public class ingotDestiny extends Item{
     public static Item ingotDestiny;
     public static void add() {
         debugmessages.ingotDestinyDebug();
-        ingotDestiny = new MiscModItems()
-                .setUnlocalizedName("ingotDestiny").
-                        setTextureName("ingotDestiny").
-                        setCreativeTab(MiscModTab.tabMiscMod);
+        ingotDestiny = new MiscModItems().setUnlocalizedName("ingotDestiny").setTextureName("ingotDestiny").setCreativeTab(MiscModTab.tabMiscMod);
 
         GameRegistry.registerItem(ingotDestiny, "Ingot of Destiny");
     }

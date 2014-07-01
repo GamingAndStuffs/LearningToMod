@@ -8,6 +8,7 @@ public class Resources {
     public static final String version = "1.7.2-1.0";
     public static final String fingerprint = "@FINGERPRINT@";
     public static final Boolean Debug = false;
+    public static final String LoggingID = "[" + name + "]";
 
     public static String getModid(){
         return modid;

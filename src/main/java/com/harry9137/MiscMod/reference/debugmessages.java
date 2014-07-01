@@ -1,27 +1,31 @@
 package com.harry9137.miscmod.reference;
 
+import com.harry9137.miscmod.utillity.LogHelper;
+
 public class debugmessages {
     private static Boolean Debug = Resources.Debug;
 
-    public static void ItemInitDebug() {if (Debug) {System.out.println("==========Item Init Begin==========");}}
+    public static void ItemInitDebug() {if (Debug) {LogHelper.debug("==========Item Init Begin==========");}}
 
-    public static void ingotDestinyDebug() {if (Debug) {System.out.println("Ingot of Destiny Loaded");}}
+    public static void ingotDestinyDebug() {if (Debug) {LogHelper.debug("Ingot of Destiny Loaded");}}
 
-    //public static void pickaxeDestinyDebug() {if (Debug) {System.out.println("Pickaxe of Destiny Loaded");}}
+    //public static void pickaxeDestinyDebug() {if (Debug) {LogHelper.debug("Pickaxe of Destiny Loaded");}}
 
-    public static void BlockInitDebug() {if (Debug) {System.out.println("==========Block Init Begin==========");}}
+    public static void BlockInitDebug() {if (Debug) {LogHelper.debug("==========Block Init Begin==========");}}
 
-    public static void blockDestinyDebug() {if (Debug) {System.out.println("Block of Destiny Loaded");}}
+    public static void blockDestinyDebug() {if (Debug) {LogHelper.debug("Block of Destiny Loaded");}}
 
-    public static void RecipieInitDebug(){if( Debug){System.out.println("==========Recipie Init Begin==========");}}
+    public static void RecipieInitDebug(){if( Debug){LogHelper.debug("==========Recipie Init Begin==========");}}
 
-    public static void recipieingotDestinyDebug() {if (Debug) {System.out.println("Recipie for Ingot of Destiny Loaded");}}
+    public static void recipieingotDestinyDebug() {if (Debug) {LogHelper.debug("Recipie for Ingot of Destiny Loaded");}}
 
-    public static void recipieblockDestinyDebug() {if (Debug) {System.out.println("Recipie for block of Destiny Loaded");}}
+    public static void recipieblockDestinyDebug() {if (Debug) {LogHelper.debug("Recipie for block of Destiny Loaded");}}
 
-    public static void creativeTabDebug(){if(Debug){System.out.println("Creative Tab Initilized");}}
+    public static void creativeTabDebug(){if(Debug){LogHelper.debug("Creative Tab Initilized");}}
 
-    //public static void proxyDebug(){if(Debug){System.out.println("Proxy Initilized");}}
+    //public static void proxyDebug(){if(Debug){LogHelper.debug("Proxy Initilized");}}
+
+    public static void configDebug(){if(Debug){LogHelper.debug("Configurations Loaded Initilized");}}
 
 
 }

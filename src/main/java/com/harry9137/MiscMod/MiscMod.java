@@ -1,5 +1,6 @@
 package com.harry9137.miscmod;
 
+import com.harry9137.miscmod.configuration.ConfigurationHandler;
 import com.harry9137.miscmod.creativetab.MiscModTab;
 import com.harry9137.miscmod.init.ItemInit;
 import com.harry9137.miscmod.init.RecipiesInit;
@@ -31,6 +32,8 @@ public class MiscMod
 
 
        // BlockInit.initBlock();
+
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 
 
     }
