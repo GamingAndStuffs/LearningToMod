@@ -1,2 +1,3 @@
-item.ingotDestiny.name=Ingot Of Destiny
+item.miscmod:ingotDestiny.name=Ingot Of Destiny
+tile.miscmod:blockDestiny.name=Block of Destiny
 itemGroup.MiscMod Items=MiscMod Items

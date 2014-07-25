@@ -1,6 +1,6 @@
-package com.harry9137.miscmod.reference;
+package com.harry9137.MiscMod.reference;
 
-import com.harry9137.miscmod.utillity.LogHelper;
+import com.harry9137.MiscMod.utillity.LogHelper;
 
 public class debugmessages {
     private static Boolean Debug = Resources.Debug;
