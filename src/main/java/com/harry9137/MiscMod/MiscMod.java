@@ -1,5 +1,7 @@
 package com.harry9137.MiscMod;
 
+import com.harry9137.MiscMod.init.Recipies;
+import com.harry9137.MiscMod.block.blockC4;
 import com.harry9137.MiscMod.handler.ConfigurationHandler;
 import com.harry9137.MiscMod.init.modBlocks;
 import com.harry9137.MiscMod.init.modItems;
@@ -12,6 +14,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Resources.modid, name = Resources.name, version = Resources.version, guiFactory = Resources.GuiFactoryClass)
 public class MiscMod
@@ -33,12 +36,21 @@ public class MiscMod
         modItems.init();
         modBlocks.init();
 
+        proxy.registerRenderer();
+
         LogHelper.info("PreInit Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        MinecraftForge.EVENT_BUS.register(new blockC4());
+
+
+        Recipies.initBlocks();
+        Recipies.intiItems();
+        Recipies.initSmelting();
+
         LogHelper.info("PreInit Complete!");
     }
 

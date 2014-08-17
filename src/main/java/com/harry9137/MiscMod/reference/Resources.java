@@ -10,6 +10,7 @@ public class Resources {
     public static final Boolean Debug = false;
     public static final String LoggingID = "[" + name + "]";
     public static final String GuiFactoryClass = "com.harry9137.MiscMod.client.gui.GuiFactory";
+    public static final String mainCreativeTab = "MiscMod";
 
 
 

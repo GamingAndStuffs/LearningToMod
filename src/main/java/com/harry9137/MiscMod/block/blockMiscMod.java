@@ -1,5 +1,6 @@
 package com.harry9137.MiscMod.block;
 
+import com.harry9137.MiscMod.creativeTab.ctMiscMod;
 import com.harry9137.MiscMod.reference.Resources;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -17,6 +18,7 @@ public class BlockMiscMod extends Block
     public BlockMiscMod()
     {
         this(Material.rock);
+        this.setCreativeTab(ctMiscMod.MiscModTab);
     }
 
     @Override

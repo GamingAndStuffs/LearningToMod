@@ -1,5 +1,6 @@
 package com.harry9137.MiscMod.item;
 
+import com.harry9137.MiscMod.creativeTab.ctMiscMod;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -18,6 +19,7 @@ public class itemsMiscMod extends Item {
         super();
         this.setCreativeTab(CreativeTabs.tabMaterials);
         this.setMaxStackSize(64);
+        this.setCreativeTab(ctMiscMod.MiscModTab);
     }
     @Override
     public String getUnlocalizedName()

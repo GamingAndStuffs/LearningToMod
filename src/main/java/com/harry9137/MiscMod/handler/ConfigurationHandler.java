@@ -11,7 +11,7 @@ import java.io.File;
 public class ConfigurationHandler {
 
     public static Configuration configuration;
-    public static int IngotDestinyID = 666;
+    public static boolean AutoUpdate = true;
 
     public static void init(File configFile) {
         debugmessages.configDebug();
@@ -34,7 +34,7 @@ public class ConfigurationHandler {
 
     public void loadConfigurations(){
 
-        IngotDestinyID = configuration.getInt("Ingot of Destiny ID", Configuration.CATEGORY_GENERAL, 666, 1, 9999, "The ID for the item Ingot of Destiny");
+        AutoUpdate = configuration.getBoolean("Auto-Update", Configuration.CATEGORY_GENERAL, false, "EXPERIMENTAL: Automaticly Download Update Files (Crashes MultiMc)");
 
         if (configuration.hasChanged()){
             configuration.save();
